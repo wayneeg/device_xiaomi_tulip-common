@@ -193,6 +193,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     camera.hal1.packagelist=com.android.camera,com.android.camera2,com.instagram.android \
     vendor.camera.hal1.packagelist= com.android.camera,com.android.camera2,com.instagram.android
+    
+# IORap app launch prefetching using Perfetto traces and madvise
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.iorapd.enable=true    
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
