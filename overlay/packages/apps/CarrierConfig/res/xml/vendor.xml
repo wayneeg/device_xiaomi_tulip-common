@@ -113,6 +113,11 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <long name="carrier_data_call_apn_retry_after_disconnect_long" value="100" />
     </carrier_config>
 
+        <!-- Show VoLTE and VoWIFI for all -->
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+
     <carrier_config mcc="001" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
