@@ -16,3 +16,6 @@ allow system_app sysfs_zram:file r_file_perms;
 
 get_prop(system_app, system_prop);
 set_prop(system_app, system_prop);
+
+# Battery Health
+r_dir_file(system_app, sysfs_battery_supply);
